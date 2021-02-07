@@ -6,10 +6,8 @@ basic.forever(function on_forever() {
         basic.showString("E")
     } else if (degrees < 225) {
         basic.showString("S")
-    } else if (degrees > 225) {
-        basic.showString("W")
     } else {
-        basic.showString("N")
+        basic.showString("W")
     }
     
 })
